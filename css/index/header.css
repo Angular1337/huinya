@@ -1,0 +1,92 @@
+header {
+    top: 0;
+    z-index: 1;
+    margin-top: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E7DFC6;
+    display: flex;
+    position: sticky;
+    width: 65%;
+    height: auto;
+    border-radius: 1vw;
+    align-items: center;
+    border: solid 0.25vw #FFFFFF;
+}
+
+.header__name {
+    text-decoration: none;
+    color: #623CEA;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+    padding: 0;
+    margin-left: 2.5%;
+    margin-right: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.header__name:hover {
+    transform: scale(1.15);
+}
+
+h1 {
+    font-family: "Pixelizer";
+    font-size: 2vw;
+    height: auto;
+    width: 100%;
+}
+
+.header__shopping__cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.header__shopping__cart:hover {
+    transform: scale(1.25);
+}
+
+.header__shopping__cart__photo {
+    width: 2vw;
+    height: auto;
+}
+
+.header__support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-right: 2.5%;
+    margin-left: 1.5%;
+    transition: all 0.5s ease-in-out;
+}
+
+.header__support:hover {
+    transform: scale(1.25);
+}
+
+.header__support__photo {
+    width: 2vw;
+    height: auto;
+}
+
+.header__link {
+    font-family: "Pixelizer";
+    text-decoration: none;
+    color: #623CEA;
+    font-size: 1.5vw;
+    margin-left: 67.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.header__link:hover {
+    transform: scale(1.25);
+}
